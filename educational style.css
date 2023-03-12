@@ -1,0 +1,83 @@
+.container h2{
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+} 
+body{
+    background-image: url(gaming\ 3.jpg);
+   
+}
+.work-list{
+    width: 74vmin;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 20px solid #ffff;
+    border-radius: 35px;
+    box-shadow: 10px 25px 30px rgb(0, 85, 255);
+    margin: 35px;
+    position:absolute;
+    overflow: hidden;
+}
+
+
+.work{
+    width: 80%;
+    display: flex;
+    animation:slide 8s;
+    margin-left: 30px;
+    grid-area:auto;
+    scroll-behavior: smooth;
+}
+
+
+span{
+    color:rgb(20, 160, 220);
+}
+
+
+.work img{
+    size: 45px;
+}
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-80%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.body{
+    margin: 10px auto;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    text-align: left;
+    margin: auto;
+}
